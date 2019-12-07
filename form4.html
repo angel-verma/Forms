@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+.block{
+	height:300px;
+	width:800px;
+	background-image:url(images/form4.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color:#53d5a5;
+	margin:auto;
+	margin-top:180px;
+	position:relative;
+}
+.welcome{
+	font-family:"Comic Sans MS", cursive;
+	font-size:30px;
+	color:rgba(255,255,255,1);
+	position:absolute;
+	left:340px;
+	top:50px;
+}
+.user{
+	height:35px;
+	width:250px;
+	background-color: rgba(106, 200, 176, 0.5);
+	border:1px solid #a5ddd0;
+	position:absolute;
+	bottom:145px;
+	left:275px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:16px;
+	color:#FFFFFF;
+	text-align:center;
+}
+.password{
+	height:35px;
+	width:250px;
+	background-color: rgba(106, 200, 176, 0.5);
+	border:1px solid #a5ddd0;
+	position:absolute;
+	bottom:95px;
+	left:275px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:16px;
+	color:#FFFFFF;
+	text-align:center;
+}
+.login{
+	height:35px;
+	width:250px;
+	background-color:#f6f7fb;
+	border:none;
+	position:absolute;
+	bottom:50px;
+	left:275px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:16px;
+	color:#85dabd;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+</style>
+</head>
+
+<body>
+<div class="block">
+	<div class="welcome">Welcome</div>
+    <form>
+    	<input type="text" placeholder="Username" class="user" />
+        <input type="text" placeholder="Password" class="password" />
+        <input type="submit" value="Login" class="login" />
+    </form>
+</div>
+</body>
+</html>

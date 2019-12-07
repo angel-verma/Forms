@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+		}
+		#main{
+			background-image: url(images/1.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 662px;
+			width: 100%;
+			position: relative;
+
+		}
+		.block{
+			height: 550px;
+			width: 700px;
+			background-color: rgba(49, 55, 79, 0.5);
+			position: absolute;
+			top: 56px;
+			left: 350px;
+		}
+		.welcome{
+			font-family: arial;
+			font-size: 36px;
+			color: rgba(255,255,255,1);
+			position: absolute;
+			top: 70px;
+			left: 290px;
+		}
+		.form_block{
+			height: 170px;
+			width: 500px;
+			position: absolute;
+			left: 100px;
+			top: 160px;
+		}
+		.email{
+			height: 40px;
+			width: 350px;
+			background-color: rgba(49, 55, 79, 0.5);
+			border:2px #6b757e solid;
+			padding-left: 50px;
+			position: absolute;
+			left: 50px;
+			font-size: 16px;
+			color:rgba(255,255,255,1);
+			background-image:url(images/mail.png);
+			background-repeat:no-repeat;
+			background-position:5px;	
+		}
+		.password{
+			height: 40px;
+			width: 350px;
+			padding-left: 50px;
+			background-color: rgba(49, 55, 79, 0.5);
+			border:2px #6b757e solid;
+			position: absolute;
+			left: 50px;
+			top: 60px;
+			font-size: 16px;
+			color:rgba(255,255,255,1);
+			background-image:url(images/password.png);
+			background-repeat:no-repeat;
+			background-position:10px 10px;	
+		}
+		.login{
+			height: 45px;
+			width: 403px;
+			position: absolute;
+			top: 120px;
+			left: 50px;
+			background-color: #54aeea;
+			border:none;
+			font-size: 16px;
+			font-weight: bold;
+			color: rgba(255,255,255,1);
+		}
+		.or{
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			color:rgba(255,255,255,1);
+			position:absolute;
+			left:310px;
+			bottom:200px;
+		}
+		.image{
+			position:absolute;
+			left:250px;
+			bottom:140px;
+		}
+		.image img{
+			height:40px;
+			width:40px;
+			margin-left:5px;
+		}
+		
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+	</style>
+</head>
+
+<body>
+<div id="main">
+	<div class="block">
+		<div class="welcome">Welcome</div>
+		<form class="form_block">
+			<input type="text" name="" class="email" placeholder="Email">
+			<input type="password" name="" class="password" placeholder="Password">
+			<input type="submit" name="" value="LOGIN" class="login">
+		</form>
+        
+        <div class="or">or connect with</div>
+        <div class="image">
+        	<a href="#"><img src="images/fb_logo_07.png"></a>
+            <a href="#"><img src="images/aa_08.png"></a>
+            <a href="#"><img src="images/bb_09.png"></a>
+            <a href="#"><img src="images/cc_10.png"></a>
+        </div>
+	</div>
+</div>
+</body>
+</html>

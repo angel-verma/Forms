@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+.block{
+	width:600px;
+	height:580px;
+	background-color:#f8da56;
+	margin:auto;
+	position:relative;
+}
+.inner{
+	height:480px;
+	width:500px;
+	background-color:#eeeeee;
+	border-radius:4px;
+	position:absolute;
+	top:70px;
+	left:50px;
+}
+.member{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:22px;
+	color:#6d6d6d;
+	position:absolute;
+	top:120px;
+	left:180px;
+}
+.user{
+	height:40px;
+	width:380px;
+	background-color:#d3d3d3;
+	padding-left:20px;
+	border:none;
+	border-radius:4px;
+	position:absolute;
+	left:50px;
+	top:170px;
+	font-weight:bold;
+	border-bottom:2px solid #adacac;
+}
+.password{
+	height:40px;
+	width:380px;
+	background-color:#d3d3d3;
+	padding-left:20px;
+	border:none;
+	border-radius:4px;
+	position:absolute;
+	left:50px;
+	top:240px;
+	font-weight:bold;
+	border-bottom:2px solid #adacac;
+}
+.login{
+	height:45px;
+	width:400px;
+	background-color:#22aa58;
+	border:none;
+	border-radius:4px;
+	position:absolute;
+	left:50px;
+	top:310px;
+	border:2px solid #467458;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:#FFFFFF;
+}
+.forgot a{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#9d9d9d;	
+	
+	position:absolute;
+	bottom:60px;
+	left:190px;
+	text-decoration:none;
+}
+.logo{
+	background-image:url(images/member_login_02.png);
+	background-repeat:no-repeat;
+	height:120px;
+	width:120px;
+	position:absolute;
+	top:-40px;
+	left:220px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #6d6d6d;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #6d6d6d;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #6d6d6d;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #6d6d6d;
+}
+</style>
+</head>
+
+<body>
+<div class="block">
+	<div class="inner">
+    	<div class="member">Member Login</div>
+        <form>
+        	<input type="text" placeholder="USERNAME" class="user" />
+            <input type="password" placeholder="PASSWORD" class="password" />
+            <input type="submit" value="LOGIN" class="login" />
+        </form>
+        <div class="forgot"><a href="#">Forgot Password?</a></div>
+        <div class="logo"></div>
+    </div>
+</div>
+</body>
+</html>
